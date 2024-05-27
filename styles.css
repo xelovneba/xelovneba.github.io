@@ -1,0 +1,79 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQs6uJHJUQapSOLb27Duooy0WAXlcEA9aEls6Xm3bdh-ni5O_Nui5B4yaHZWt-iFOE9VYCkneAE3DJh0RlNwQbytI2cL0XxDGl_VQ5IiXxPArFa_voUbkTxfqPs17WItWLfN05wq0DI_fd/s1600/167543_160599647324633_100001237978509_354006_6919216_n.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+#content {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#info-frame {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+p, ol {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
